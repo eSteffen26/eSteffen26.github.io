@@ -70,6 +70,6 @@ kramdown:
   footnote_nr       : 1
   show_warnings     : false
 
-remote_theme: pages-themes/architect@v0.2.0
+remote_theme: pages-themes/feeling-responive
 plugins:
 - jekyll-remote-theme 
