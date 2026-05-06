@@ -216,7 +216,7 @@ body
 
 .BlogPost img
 {
-  height: 200px;
+  height: 250px;
   width: auto;
   max-width: 100%;
   border: solid 3px #fafafa;
@@ -224,8 +224,18 @@ body
   display: block;
 }
 
+.BlogPost iframe
+{
+  margin: 10px;
+  height: 700px;
+  width: 600px;
+  border-radius: 8px;
+
+}
+
 #tooLong
 {
   width: 400px;
   height: 50px;
+  border-radius: 8px;
 }
