@@ -1,0 +1,98 @@
+/* 
+Colors
+#e68105
+#00584c
+#a5a821
+#fafafa
+#0a0a0a
+
+Color Combos Valid For Text
+Orange & Black 
+Blue & White
+Green & Black
+ */
+
+  /* ------------------------- Main Page Specifics ------------------------- */
+
+ .topnav a /* Style the topnav links */
+ {
+   float: left;
+   display: block;
+   color: #a5a821;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: #0a0a0a;
+   height: 3em;
+ }
+ 
+ .topnav a:hover /* Change color on hover */
+ {
+   background-color: #a5a821;
+   color: #0a0a0a;
+ }
+
+.Banner
+{
+  background-color: #a5a821;
+}
+
+.BannerText
+{
+  -webkit-text-stroke-color: #a5a821;
+  -webkit-text-stroke-width: 0.8px;
+  font-weight: 600;
+}
+
+.cirAndSqurs
+{
+  margin: 70px;
+  background-color: #0a0a0a;
+}
+
+.itemInCirclesAndSquares
+{
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+.PersonalStatement
+{
+  background-color: #00584c;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 2px solid #fafafa;
+  border-left: 0px;
+  border-right: 0px;
+  display: inline-block;
+}
+
+.PersonalStatement h2
+{
+  margin: 20px 100px 15px 100px;
+  font-size: 3.5em;
+}
+
+.PersonalStatement p
+{
+  margin: 0px 0px 0px 100px;
+  font-size: 2em;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.PersonalStatement img
+{
+  width: 200px;
+  float: right;
+  margin: 0px 100px 0px 20px;
+  border: #fafafa solid 2px;
+}
+
+.BottomImage
+{
+  margin-top: 30px;
+  background-image: linear-gradient(#0a0a0a, #00584c, #1FB2A2); /* remove when image is in */
+  height: 100px; /* Change to fit image height */
+}

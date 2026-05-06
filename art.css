@@ -1,0 +1,63 @@
+/* 
+Colors
+#e68105
+#00584c
+#a5a821
+#fafafa
+#0a0a0a
+
+Color Combos Valid For Text
+Orange & Black 
+Blue & White
+Green & Black
+ */
+
+/* ------------------------- Completed Projects Page Specifics ------------------------- */
+
+ .topnav a /* Style the topnav links */
+ {
+   float: left;
+   display: block;
+   color: #03bfa6;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: #0a0a0a;
+   height: 3em;
+ }
+ 
+ .topnav a:hover /* Change color on hover */
+ {
+   background-color: #00584c;
+   color: #fafafa;
+ }
+
+ .Banner
+{
+  background-color: #004D42;
+}
+
+.imageWithDescription
+{
+  height: 50%;
+  width: 50%;
+  margin: 10px 0px 20px 20px;
+  display: inline-block;
+}
+
+.imageWithDescription img
+{
+  border: 3px solid #fafafa;
+  /* float: left; */
+  height: 50%;
+  width: 50%;
+  margin: 0px;
+}
+
+.imageWithDescription p
+{
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}

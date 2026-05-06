@@ -1,0 +1,231 @@
+/* 
+Colors
+#e68105
+#00584c
+#a5a821
+#fafafa
+#0a0a0a
+
+Color Combos Valid For Text
+Orange & Black 
+Blue & White
+Green & Black
+ */
+
+* 
+{
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+h2
+{
+  font-size: 4em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+p 
+{
+  font: "Roboto 0", sans-serif;
+  margin-top: 0px;
+  font-size: 20px;
+} 
+
+li
+{
+  font: "Roboto 0", sans-serif;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+a
+{
+  text-decoration: none;
+  color: #fafafa;
+}
+
+body 
+{
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: #fafafa;
+  background-color: #0a0a0a;
+}
+
+/* section
+{
+  
+} */
+
+.topnav /* Style the top navigation bar */
+{
+  overflow: hidden;
+  background-color: #0a0a0a;
+}
+
+.topnav a /* Style the topnav links */
+{
+  float: left;
+  display: block;
+  color: #a7a917;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #0a0a0a;
+  height: 3em;
+}
+
+.topnav a:hover /* Change color on hover */
+{
+  background-color: #a7a917;
+  color: #0a0a0a;
+}
+
+#houseIcon
+{
+  width: 20px;
+  height: 25px;
+  padding-bottom: 6px;
+}
+
+#bannerImage img /* Formats the banner image at the top of the page */
+{
+  float: right;
+  height: 661px;
+}
+
+.Banner /* Formats the box that the image and text are stored. Mainly there to keep space on page for banner. */
+{
+  margin: 0px;
+  padding: 0px;
+  height: 661px;
+  /* background-color: rgb(128, 0, 255); */
+} 
+
+.BannerText /* Formats the text on top of the banner image */
+{
+  color: #0a0a0a;
+  position: relative;
+  bottom: -25px;
+  height: 0px;
+  padding-left: 40px;
+}
+
+.blueBannerText
+{
+  color: #fafafa;
+  position: relative;
+  bottom: -25px;
+  height: 0px;
+  padding-left: 40px;
+}
+
+.introParagraph
+{
+  margin: 40px 20px 40px 20px;
+  font-size: 20px;
+}
+
+.footer  /* Style the footer */
+{
+  margin: 30px;
+  background-color: #0a0a0a;
+  padding: 10px;
+}
+
+.footer h3
+{
+  font-size: 1.8em;
+  font-weight: 800;
+  margin-bottom: 10px;
+  border: 2px solid #fafafa;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.footer p
+{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.footer img
+{
+  float: right;
+}
+
+.footer a
+{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.footer a:hover
+{
+  color: #a7a917;
+  text-decoration: underline;
+}
+
+.ProjectBox
+{
+  border: 3px solid #fafafa;
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.ProjectBox h3
+{
+  margin: 20px 20px 15px 20px;
+  font-size: 30px;
+}
+
+.ProjectBox h4
+{
+  margin: 0px 20px 5px 20px;
+  font-size: 23px;
+}
+
+.ProjectBox h5
+{
+  margin: 0px 20px 5px 20px;
+  font-size: 18px;
+}
+
+.ProjectBox p
+{
+  margin: 10px 18px 18px 18px;
+  line-height: 28px;
+}
+
+.ProjectBox a 
+{
+  display: block;
+  margin: 10px 18px 18px 18px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.BlogPost p
+{
+  font-size: 12px;
+  margin: 0px 20px 0px 20px;
+  
+}
+
+.BlogPost img
+{
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+  border: solid 3px #fafafa;
+  margin: 20px 20px 0px 20px;
+  display: block;
+}
+
+#tooLong
+{
+  width: 400px;
+  height: 50px;
+}

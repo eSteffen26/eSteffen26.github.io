@@ -1,0 +1,63 @@
+/* 
+Colors
+#e68105
+#00584c
+#a5a821
+#fafafa
+#0a0a0a
+
+Color Combos Valid For Text
+Orange & Black 
+Blue & White
+Green & Black
+ */
+
+ /* ------------------------- Plan Page Specifics ------------------------- */
+
+ .topnav a /* Style the topnav links */
+ {
+   float: left;
+   display: block;
+   color: #e68105;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: #0a0a0a;
+   height: 3em;
+ }
+ 
+ .topnav a:hover /* Change color on hover */
+ {
+   background-color: #e68105;
+   color: #0a0a0a;
+ }
+
+ .Banner
+{
+  background-color: #e68105;
+}
+
+.imageWithDescription
+{
+  height: 250px;
+  width: 200px;
+  margin: 10px 0px 5px 20px;
+  display: inline-block;
+}
+
+.imageWithDescription img
+{
+  border: 3px solid #fafafa;
+  /* float: left; */
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+}
+
+.imageWithDescription p
+{
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}

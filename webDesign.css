@@ -1,0 +1,101 @@
+/* 
+Colors
+#e68105
+#00584c
+#a5a821
+#fafafa
+#0a0a0a
+
+Color Combos Valid For Text
+Orange & Black 
+Blue & White
+Green & Black
+ */
+
+/* ------------------------- Meet Me Page Specifics ------------------------- */
+
+ .topnav a /* Style the topnav links */
+ {
+   float: left;
+   display: block;
+   color: #e68105;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   background-color: #0a0a0a;
+   height: 3em;
+ }
+ 
+ .topnav a:hover /* Change color on hover */
+ {
+   background-color: #e68105;
+   color: #0a0a0a;
+ }
+
+ .Banner
+{
+  background-color: #e68105;
+}
+
+.ProjectBox
+{
+  border: 3px solid #fafafa;
+  border-radius: 8px;
+  margin: 40px;
+}
+
+.ProjectBox h3
+{
+  margin: 20px 20px 15px 20px;
+  font-size: 30px;
+}
+
+.ProjectBox h4
+{
+  margin: 0px 20px 5px 20px;
+  font-size: 23px;
+}
+
+.ProjectBox p
+{
+  margin: 10px 18px 18px 18px;
+  line-height: 28px;
+}
+
+.ProjectBox a 
+{
+  display: block;
+  margin: 10px 18px 18px 18px;
+}
+
+.BlogPost
+{
+  background-color: #e68105;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.BlogPost p
+{
+  font-size: 12px;
+  margin: 0px 20px 0px 20px;
+  color: #0a0a0a;
+  
+}
+
+.BlogPost img
+{
+  height: 200px;
+  width: auto;
+  max-width: 100%;
+  border: solid 3px #0a0a0a;
+  margin: 20px 20px 0px 20px;
+  display: block;
+}
+
+#tooLong
+{
+  width: 400px;
+  height: 50px;
+}
