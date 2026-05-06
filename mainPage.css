@@ -96,3 +96,30 @@ Green & Black
   background-image: linear-gradient(#0a0a0a, #00584c, #1FB2A2); /* remove when image is in */
   height: 100px; /* Change to fit image height */
 }
+
+.moreAboutMe
+{
+  background-color: #e68105;
+  padding: 20px;
+  padding-bottom: 40px;
+  border: 2px solid #fafafa;
+  border-left: 0px;
+  border-right: 0px;
+  display: inline-block;
+  margin-top: 20px;
+  color: #0a0a0a;
+}
+
+.moreAboutMe h2
+{
+  margin: 20px 0px 15px 100px;
+  font-size: 3.5em;
+
+}
+
+.moreAboutMe p
+{
+  margin: 0px 100px 0px 100px;
+  font-weight: 500;
+  padding-top: 10px;
+}

@@ -39,18 +39,21 @@ Green & Black
 
 .imageWithDescription
 {
-  height: 250px;
-  width: 200px;
-  margin: 10px 0px 5px 20px;
+  height: auto;
+  width: auto;
+  margin: 10px 0px 20px 20px;
   display: inline-block;
+  background-color: #e68105;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .imageWithDescription img
 {
-  border: 3px solid #fafafa;
+  border: 3px solid #0a0a0a;
   /* float: left; */
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: auto;
   margin: 0px;
 }
 
@@ -58,6 +61,8 @@ Green & Black
 {
   margin-top: 0px;
   font-size: 12px;
+  font-weight: 600;
   text-align: center;
   line-height: 15px;
+  color: #0a0a0a;
 }
